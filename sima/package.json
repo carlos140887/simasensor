@@ -1,0 +1,15 @@
+{
+  "name": "sima",
+  "version": "2.0.0",
+  "description": "SIMA · Sistema de Monitoramento Ambiental dos parques do Recife",
+  "private": true,
+  "engines": { "node": ">=22.5" },
+  "scripts": {
+    "start": "node --disable-warning=ExperimentalWarning server/server.js",
+    "dev": "node --disable-warning=ExperimentalWarning --watch server/server.js",
+    "admin": "node --disable-warning=ExperimentalWarning server/admin.js",
+    "importar-legado": "node --disable-warning=ExperimentalWarning server/admin.js importar scripts/legado-dados.js scripts/legado-medicoes.json",
+    "simular": "node scripts/simular-sensor.js",
+    "test": "node --disable-warning=ExperimentalWarning --test test/*.test.js"
+  }
+}
