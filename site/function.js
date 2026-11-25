@@ -11,7 +11,7 @@
     // ===== Medições ao vivo do ESP32 (Netlify Function deste mesmo site) =====
     API_VIVO: '/api/medicoes',
     DIAS_VIVO: 120,              // quantos dias buscar do banco
-    ATUALIZAR_MS: 120000,        // atualiza a página sozinha a cada 2 min
+    ATUALIZAR_MS: 60000,         // busca leituras novas a cada 1 min (o ESP32 manda a leitura atual a cada 1 min)
 
     PARQUES: [
       { id: 'dois-irmaos', nome: 'Parque Dois Irmãos' },
@@ -1020,13 +1020,17 @@
   const listaDe = json => Array.isArray(json) ? json : (json?.medicoes || []);
 
   // Busca as medições do ESP32 guardadas no Netlify (função /api/medicoes)
+  // 1ª vez: todo o período; depois: só os últimos 2 dias (mais leve), somando ao que já foi carregado
+  const vivoMapa = new Map();
   async function carregarVivo() {
     if (!CFG.API_VIVO) return [];
-    const r = await fetch(`${CFG.API_VIVO}?dias=${CFG.DIAS_VIVO}`, { cache: 'no-store' });
+    const dias = vivoMapa.size ? 2 : CFG.DIAS_VIVO;
+    const r = await fetch(`${CFG.API_VIVO}?dias=${dias}`, { cache: 'no-store' });
     if (!r.ok) throw new Error(`HTTP ${r.status}`);
     const lista = await r.json();
     if (!Array.isArray(lista)) throw new Error('resposta inválida');
-    return lista;
+    for (const m of lista) vivoMapa.set(`${m.parque}|${m.data_hora}`, m);
+    return [...vivoMapa.values()];
   }
 
   // Dados fixos do site (histórico): medicoes.json + dados.js

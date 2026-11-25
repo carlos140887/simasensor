@@ -1,6 +1,7 @@
 // SIMA · recebe as medições do ESP32 e entrega ao site
 //   POST /api/medicoes  { "token": "...", "leituras": [ {data_hora, temperatura, umidade, indice, boot}, ... ] }
-//   GET  /api/medicoes?dias=120   -> lista de medições (todas os parques)
+//        com "ao_vivo": true -> só guarda a leitura atual do parque (substitui a anterior), para o site
+//   GET  /api/medicoes?dias=120   -> histórico + leitura ao vivo de cada parque
 // Os dados ficam no Netlify Blobs (loja "sima-medicoes"), um arquivo por parque por dia.
 // Quem pode gravar: variável de ambiente SIMA_DISPOSITIVOS = "token=parque" (vários separados por vírgula).
 import { getStore } from '@netlify/blobs';
@@ -49,8 +50,15 @@ async function receber(req, store, disp) {
   if (!parque) return json({ erro: 'token invalido' }, 401);
   if (!PARQUES.has(parque)) return json({ erro: `parque desconhecido: ${parque}` }, 400);
   const leituras = Array.isArray(corpo.leituras) ? corpo.leituras.slice(0, 500) : [];
-
   const agora = new Date().toISOString();
+
+  if (corpo.ao_vivo) {                                   // leitura do momento: só a última fica guardada
+    const r = linha(parque, leituras[leituras.length - 1], agora);
+    if (!r) return json({ parque, ao_vivo: true, rejeitadas: leituras.length }, 400);
+    await store.setJSON(`aovivo/${parque}`, { ...r, ao_vivo: true });
+    return json({ parque, ao_vivo: true, data_hora: r.data_hora, co2eq: r.co2eq });
+  }
+
   const porDia = new Map();
   let rejeitadas = 0;
   for (const l of leituras) {
@@ -83,14 +91,22 @@ async function listar(req, store) {
   const so = u.searchParams.get('parque');
   const desde = new Date(Date.now() - (dias + 1) * 86400000).toISOString().slice(0, 10);
   const { blobs } = await store.list();
-  const chaves = blobs.map(b => b.key).filter(k => {
-    const [p, d] = k.split('/');
-    return d >= desde && (!so || p === so);
-  });
+  const chaves = [], vivas = [];
+  for (const { key } of blobs) {
+    const [p, d] = key.split('/');
+    if (p === 'aovivo') { if (!so || d === so) vivas.push(key); }
+    else if (d >= desde && (!so || p === so)) chaves.push(key);
+  }
   const todas = [];
   for (let i = 0; i < chaves.length; i += 40) {
     const lote = await Promise.all(chaves.slice(i, i + 40).map(k => store.get(k, { type: 'json' })));
     for (const arr of lote) if (Array.isArray(arr)) todas.push(...arr);
+  }
+  // leitura ao vivo de cada parque (se for mais nova que o histórico daquele parque)
+  const ultimo = new Map();
+  for (const m of todas) ultimo.set(m.parque, Math.max(ultimo.get(m.parque) || 0, Date.parse(m.data_hora)));
+  for (const v of await Promise.all(vivas.map(k => store.get(k, { type: 'json' })))) {
+    if (v && Date.parse(v.data_hora) > (ultimo.get(v.parque) || 0)) todas.push(v);
   }
   todas.sort((a, b) => Date.parse(a.data_hora) - Date.parse(b.data_hora));
   return json(todas);
