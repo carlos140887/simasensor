@@ -1,0 +1,7 @@
+# SIMA no Netlify: site estático (pasta site) + função que guarda as medições
+[build]
+  publish = "site"
+  functions = "netlify/functions"
+
+[build.environment]
+  NODE_VERSION = "22"

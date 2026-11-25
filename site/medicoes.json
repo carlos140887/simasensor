@@ -1,0 +1,1692 @@
+{
+  "medicoes": [
+    {
+      "parque": "dois-irmaos",
+      "data_hora": "2026-10-07T06:00:00-03:00",
+      "temperatura": 23.3,
+      "umidade": 81.9,
+      "co2": 382,
+      "mq135": 76
+    },
+    {
+      "parque": "governador-eduardo-campos",
+      "data_hora": "2026-10-07T06:00:00-03:00",
+      "temperatura": 31.5,
+      "umidade": 56.5,
+      "co2": 2253,
+      "mq135": 815
+    },
+    {
+      "parque": "jaqueira",
+      "data_hora": "2026-10-07T06:00:00-03:00",
+      "temperatura": 25.3,
+      "umidade": 80.4,
+      "co2": 627,
+      "mq135": 156
+    },
+    {
+      "parque": "macaxeira",
+      "data_hora": "2026-10-07T06:00:00-03:00",
+      "temperatura": 29.1,
+      "umidade": 59.6,
+      "co2": 1475,
+      "mq135": 613
+    },
+    {
+      "parque": "tamarineira",
+      "data_hora": "2026-10-07T06:00:00-03:00",
+      "temperatura": 26.8,
+      "umidade": 67.9,
+      "co2": 802,
+      "mq135": 330
+    },
+    {
+      "parque": "dois-irmaos",
+      "data_hora": "2026-10-07T09:00:00-03:00",
+      "temperatura": 25.3,
+      "umidade": 84.9,
+      "co2": 393,
+      "mq135": 71
+    },
+    {
+      "parque": "governador-eduardo-campos",
+      "data_hora": "2026-10-07T09:00:00-03:00",
+      "temperatura": 34.1,
+      "umidade": 53.1,
+      "co2": 2261,
+      "mq135": 855
+    },
+    {
+      "parque": "jaqueira",
+      "data_hora": "2026-10-07T09:00:00-03:00",
+      "temperatura": 27.3,
+      "umidade": 73.2,
+      "co2": 491,
+      "mq135": 157
+    },
+    {
+      "parque": "macaxeira",
+      "data_hora": "2026-10-07T09:00:00-03:00",
+      "temperatura": 31.7,
+      "umidade": 63.6,
+      "co2": 1429,
+      "mq135": 614
+    },
+    {
+      "parque": "tamarineira",
+      "data_hora": "2026-10-07T09:00:00-03:00",
+      "temperatura": 29.2,
+      "umidade": 69.9,
+      "co2": 902,
+      "mq135": 346
+    },
+    {
+      "parque": "dois-irmaos",
+      "data_hora": "2026-10-07T12:00:00-03:00",
+      "temperatura": 27.6,
+      "umidade": 72.8,
+      "co2": 374,
+      "mq135": 80
+    },
+    {
+      "parque": "governador-eduardo-campos",
+      "data_hora": "2026-10-07T12:00:00-03:00",
+      "temperatura": 35.6,
+      "umidade": 48.7,
+      "co2": 2143,
+      "mq135": 842
+    },
+    {
+      "parque": "jaqueira",
+      "data_hora": "2026-10-07T12:00:00-03:00",
+      "temperatura": 28.4,
+      "umidade": 66.7,
+      "co2": 492,
+      "mq135": 169
+    },
+    {
+      "parque": "macaxeira",
+      "data_hora": "2026-10-07T12:00:00-03:00",
+      "temperatura": 33.7,
+      "umidade": 57.7,
+      "co2": 1475,
+      "mq135": 618
+    },
+    {
+      "parque": "tamarineira",
+      "data_hora": "2026-10-07T12:00:00-03:00",
+      "temperatura": 31.3,
+      "umidade": 62.0,
+      "co2": 828,
+      "mq135": 310
+    },
+    {
+      "parque": "dois-irmaos",
+      "data_hora": "2026-10-07T15:00:00-03:00",
+      "temperatura": 28.7,
+      "umidade": 77.5,
+      "co2": 430,
+      "mq135": 108
+    },
+    {
+      "parque": "governador-eduardo-campos",
+      "data_hora": "2026-10-07T15:00:00-03:00",
+      "temperatura": 37.4,
+      "umidade": 44.6,
+      "co2": 2160,
+      "mq135": 832
+    },
+    {
+      "parque": "jaqueira",
+      "data_hora": "2026-10-07T15:00:00-03:00",
+      "temperatura": 30.2,
+      "umidade": 70.8,
+      "co2": 514,
+      "mq135": 152
+    },
+    {
+      "parque": "macaxeira",
+      "data_hora": "2026-10-07T15:00:00-03:00",
+      "temperatura": 35.3,
+      "umidade": 50.2,
+      "co2": 1476,
+      "mq135": 603
+    },
+    {
+      "parque": "tamarineira",
+      "data_hora": "2026-10-07T15:00:00-03:00",
+      "temperatura": 31.4,
+      "umidade": 59.7,
+      "co2": 801,
+      "mq135": 361
+    },
+    {
+      "parque": "dois-irmaos",
+      "data_hora": "2026-10-07T18:00:00-03:00",
+      "temperatura": 25.6,
+      "umidade": 79.0,
+      "co2": 434,
+      "mq135": 123
+    },
+    {
+      "parque": "governador-eduardo-campos",
+      "data_hora": "2026-10-07T18:00:00-03:00",
+      "temperatura": 35.1,
+      "umidade": 50.6,
+      "co2": 2280,
+      "mq135": 875
+    },
+    {
+      "parque": "jaqueira",
+      "data_hora": "2026-10-07T18:00:00-03:00",
+      "temperatura": 27.1,
+      "umidade": 70.5,
+      "co2": 645,
+      "mq135": 186
+    },
+    {
+      "parque": "macaxeira",
+      "data_hora": "2026-10-07T18:00:00-03:00",
+      "temperatura": 32.8,
+      "umidade": 56.6,
+      "co2": 1376,
+      "mq135": 602
+    },
+    {
+      "parque": "tamarineira",
+      "data_hora": "2026-10-07T18:00:00-03:00",
+      "temperatura": 28.6,
+      "umidade": 62.8,
+      "co2": 784,
+      "mq135": 339
+    },
+    {
+      "parque": "dois-irmaos",
+      "data_hora": "2026-10-07T21:00:00-03:00",
+      "temperatura": 23.2,
+      "umidade": 86.8,
+      "co2": 451,
+      "mq135": 98
+    },
+    {
+      "parque": "governador-eduardo-campos",
+      "data_hora": "2026-10-07T21:00:00-03:00",
+      "temperatura": 32.5,
+      "umidade": 55.0,
+      "co2": 2219,
+      "mq135": 826
+    },
+    {
+      "parque": "jaqueira",
+      "data_hora": "2026-10-07T21:00:00-03:00",
+      "temperatura": 25.4,
+      "umidade": 78.0,
+      "co2": 494,
+      "mq135": 180
+    },
+    {
+      "parque": "macaxeira",
+      "data_hora": "2026-10-07T21:00:00-03:00",
+      "temperatura": 30.8,
+      "umidade": 57.4,
+      "co2": 1520,
+      "mq135": 636
+    },
+    {
+      "parque": "tamarineira",
+      "data_hora": "2026-10-07T21:00:00-03:00",
+      "temperatura": 27.7,
+      "umidade": 75.2,
+      "co2": 914,
+      "mq135": 313
+    },
+    {
+      "parque": "dois-irmaos",
+      "data_hora": "2026-10-08T06:00:00-03:00",
+      "temperatura": 23.5,
+      "umidade": 87.0,
+      "co2": 467,
+      "mq135": 97
+    },
+    {
+      "parque": "governador-eduardo-campos",
+      "data_hora": "2026-10-08T06:00:00-03:00",
+      "temperatura": 31.2,
+      "umidade": 58.2,
+      "co2": 2245,
+      "mq135": 824
+    },
+    {
+      "parque": "jaqueira",
+      "data_hora": "2026-10-08T06:00:00-03:00",
+      "temperatura": 24.1,
+      "umidade": 76.9,
+      "co2": 478,
+      "mq135": 215
+    },
+    {
+      "parque": "macaxeira",
+      "data_hora": "2026-10-08T06:00:00-03:00",
+      "temperatura": 30.5,
+      "umidade": 67.1,
+      "co2": 1380,
+      "mq135": 609
+    },
+    {
+      "parque": "tamarineira",
+      "data_hora": "2026-10-08T06:00:00-03:00",
+      "temperatura": 27.5,
+      "umidade": 75.9,
+      "co2": 817,
+      "mq135": 299
+    },
+    {
+      "parque": "dois-irmaos",
+      "data_hora": "2026-10-08T09:00:00-03:00",
+      "temperatura": 24.8,
+      "umidade": 83.4,
+      "co2": 380,
+      "mq135": 121
+    },
+    {
+      "parque": "governador-eduardo-campos",
+      "data_hora": "2026-10-08T09:00:00-03:00",
+      "temperatura": 33.3,
+      "umidade": 52.8,
+      "co2": 2154,
+      "mq135": 830
+    },
+    {
+      "parque": "jaqueira",
+      "data_hora": "2026-10-08T09:00:00-03:00",
+      "temperatura": 26.5,
+      "umidade": 72.0,
+      "co2": 567,
+      "mq135": 201
+    },
+    {
+      "parque": "macaxeira",
+      "data_hora": "2026-10-08T09:00:00-03:00",
+      "temperatura": 31.5,
+      "umidade": 59.1,
+      "co2": 1386,
+      "mq135": 591
+    },
+    {
+      "parque": "tamarineira",
+      "data_hora": "2026-10-08T09:00:00-03:00",
+      "temperatura": 28.1,
+      "umidade": 67.0,
+      "co2": 934,
+      "mq135": 340
+    },
+    {
+      "parque": "dois-irmaos",
+      "data_hora": "2026-10-08T12:00:00-03:00",
+      "temperatura": 26.6,
+      "umidade": 78.7,
+      "co2": 374,
+      "mq135": 123
+    },
+    {
+      "parque": "governador-eduardo-campos",
+      "data_hora": "2026-10-08T12:00:00-03:00",
+      "temperatura": 35.5,
+      "umidade": 45.7,
+      "co2": 2187,
+      "mq135": 848
+    },
+    {
+      "parque": "jaqueira",
+      "data_hora": "2026-10-08T12:00:00-03:00",
+      "temperatura": 29.7,
+      "umidade": 65.1,
+      "co2": 515,
+      "mq135": 197
+    },
+    {
+      "parque": "macaxeira",
+      "data_hora": "2026-10-08T12:00:00-03:00",
+      "temperatura": 34.1,
+      "umidade": 56.2,
+      "co2": 1502,
+      "mq135": 588
+    },
+    {
+      "parque": "tamarineira",
+      "data_hora": "2026-10-08T12:00:00-03:00",
+      "temperatura": 30.6,
+      "umidade": 59.7,
+      "co2": 924,
+      "mq135": 335
+    },
+    {
+      "parque": "dois-irmaos",
+      "data_hora": "2026-10-08T15:00:00-03:00",
+      "temperatura": 28.3,
+      "umidade": 77.8,
+      "co2": 502,
+      "mq135": 67
+    },
+    {
+      "parque": "governador-eduardo-campos",
+      "data_hora": "2026-10-08T15:00:00-03:00",
+      "temperatura": 36.8,
+      "umidade": 40.6,
+      "co2": 2285,
+      "mq135": 874
+    },
+    {
+      "parque": "jaqueira",
+      "data_hora": "2026-10-08T15:00:00-03:00",
+      "temperatura": 29.5,
+      "umidade": 66.5,
+      "co2": 621,
+      "mq135": 167
+    },
+    {
+      "parque": "macaxeira",
+      "data_hora": "2026-10-08T15:00:00-03:00",
+      "temperatura": 34.3,
+      "umidade": 56.3,
+      "co2": 1440,
+      "mq135": 635
+    },
+    {
+      "parque": "tamarineira",
+      "data_hora": "2026-10-08T15:00:00-03:00",
+      "temperatura": 31.2,
+      "umidade": 61.5,
+      "co2": 837,
+      "mq135": 314
+    },
+    {
+      "parque": "dois-irmaos",
+      "data_hora": "2026-10-08T18:00:00-03:00",
+      "temperatura": 26.3,
+      "umidade": 85.6,
+      "co2": 479,
+      "mq135": 72
+    },
+    {
+      "parque": "governador-eduardo-campos",
+      "data_hora": "2026-10-08T18:00:00-03:00",
+      "temperatura": 34.4,
+      "umidade": 52.5,
+      "co2": 2141,
+      "mq135": 836
+    },
+    {
+      "parque": "jaqueira",
+      "data_hora": "2026-10-08T18:00:00-03:00",
+      "temperatura": 27.3,
+      "umidade": 70.5,
+      "co2": 543,
+      "mq135": 154
+    },
+    {
+      "parque": "macaxeira",
+      "data_hora": "2026-10-08T18:00:00-03:00",
+      "temperatura": 32.2,
+      "umidade": 56.6,
+      "co2": 1528,
+      "mq135": 645
+    },
+    {
+      "parque": "tamarineira",
+      "data_hora": "2026-10-08T18:00:00-03:00",
+      "temperatura": 29.1,
+      "umidade": 72.2,
+      "co2": 810,
+      "mq135": 350
+    },
+    {
+      "parque": "dois-irmaos",
+      "data_hora": "2026-10-08T21:00:00-03:00",
+      "temperatura": 24.7,
+      "umidade": 85.4,
+      "co2": 427,
+      "mq135": 112
+    },
+    {
+      "parque": "governador-eduardo-campos",
+      "data_hora": "2026-10-08T21:00:00-03:00",
+      "temperatura": 33.4,
+      "umidade": 51.1,
+      "co2": 2216,
+      "mq135": 858
+    },
+    {
+      "parque": "jaqueira",
+      "data_hora": "2026-10-08T21:00:00-03:00",
+      "temperatura": 25.1,
+      "umidade": 77.5,
+      "co2": 560,
+      "mq135": 210
+    },
+    {
+      "parque": "macaxeira",
+      "data_hora": "2026-10-08T21:00:00-03:00",
+      "temperatura": 31.0,
+      "umidade": 62.4,
+      "co2": 1405,
+      "mq135": 583
+    },
+    {
+      "parque": "tamarineira",
+      "data_hora": "2026-10-08T21:00:00-03:00",
+      "temperatura": 27.3,
+      "umidade": 75.2,
+      "co2": 779,
+      "mq135": 308
+    },
+    {
+      "parque": "dois-irmaos",
+      "data_hora": "2026-10-09T06:00:00-03:00",
+      "temperatura": 23.0,
+      "umidade": 87.5,
+      "co2": 424,
+      "mq135": 125
+    },
+    {
+      "parque": "governador-eduardo-campos",
+      "data_hora": "2026-10-09T06:00:00-03:00",
+      "temperatura": 31.2,
+      "umidade": 52.8,
+      "co2": 2160,
+      "mq135": 880
+    },
+    {
+      "parque": "jaqueira",
+      "data_hora": "2026-10-09T06:00:00-03:00",
+      "temperatura": 24.4,
+      "umidade": 80.8,
+      "co2": 516,
+      "mq135": 178
+    },
+    {
+      "parque": "macaxeira",
+      "data_hora": "2026-10-09T06:00:00-03:00",
+      "temperatura": 29.2,
+      "umidade": 62.2,
+      "co2": 1535,
+      "mq135": 645
+    },
+    {
+      "parque": "tamarineira",
+      "data_hora": "2026-10-09T06:00:00-03:00",
+      "temperatura": 27.2,
+      "umidade": 70.6,
+      "co2": 819,
+      "mq135": 348
+    },
+    {
+      "parque": "dois-irmaos",
+      "data_hora": "2026-10-09T09:00:00-03:00",
+      "temperatura": 25.4,
+      "umidade": 86.7,
+      "co2": 398,
+      "mq135": 71
+    },
+    {
+      "parque": "governador-eduardo-campos",
+      "data_hora": "2026-10-09T09:00:00-03:00",
+      "temperatura": 33.0,
+      "umidade": 52.4,
+      "co2": 2161,
+      "mq135": 857
+    },
+    {
+      "parque": "jaqueira",
+      "data_hora": "2026-10-09T09:00:00-03:00",
+      "temperatura": 27.1,
+      "umidade": 76.9,
+      "co2": 579,
+      "mq135": 219
+    },
+    {
+      "parque": "macaxeira",
+      "data_hora": "2026-10-09T09:00:00-03:00",
+      "temperatura": 31.9,
+      "umidade": 63.3,
+      "co2": 1388,
+      "mq135": 583
+    },
+    {
+      "parque": "tamarineira",
+      "data_hora": "2026-10-09T09:00:00-03:00",
+      "temperatura": 28.8,
+      "umidade": 64.0,
+      "co2": 904,
+      "mq135": 316
+    },
+    {
+      "parque": "dois-irmaos",
+      "data_hora": "2026-10-09T12:00:00-03:00",
+      "temperatura": 27.6,
+      "umidade": 74.4,
+      "co2": 443,
+      "mq135": 78
+    },
+    {
+      "parque": "governador-eduardo-campos",
+      "data_hora": "2026-10-09T12:00:00-03:00",
+      "temperatura": 36.0,
+      "umidade": 41.5,
+      "co2": 2128,
+      "mq135": 877
+    },
+    {
+      "parque": "jaqueira",
+      "data_hora": "2026-10-09T12:00:00-03:00",
+      "temperatura": 29.1,
+      "umidade": 73.4,
+      "co2": 619,
+      "mq135": 156
+    },
+    {
+      "parque": "macaxeira",
+      "data_hora": "2026-10-09T12:00:00-03:00",
+      "temperatura": 34.3,
+      "umidade": 51.0,
+      "co2": 1491,
+      "mq135": 614
+    },
+    {
+      "parque": "tamarineira",
+      "data_hora": "2026-10-09T12:00:00-03:00",
+      "temperatura": 31.0,
+      "umidade": 61.1,
+      "co2": 766,
+      "mq135": 349
+    },
+    {
+      "parque": "dois-irmaos",
+      "data_hora": "2026-10-09T15:00:00-03:00",
+      "temperatura": 28.5,
+      "umidade": 76.5,
+      "co2": 477,
+      "mq135": 101
+    },
+    {
+      "parque": "governador-eduardo-campos",
+      "data_hora": "2026-10-09T15:00:00-03:00",
+      "temperatura": 36.6,
+      "umidade": 46.3,
+      "co2": 2141,
+      "mq135": 880
+    },
+    {
+      "parque": "jaqueira",
+      "data_hora": "2026-10-09T15:00:00-03:00",
+      "temperatura": 29.1,
+      "umidade": 64.3,
+      "co2": 527,
+      "mq135": 213
+    },
+    {
+      "parque": "macaxeira",
+      "data_hora": "2026-10-09T15:00:00-03:00",
+      "temperatura": 34.3,
+      "umidade": 48.1,
+      "co2": 1498,
+      "mq135": 637
+    },
+    {
+      "parque": "tamarineira",
+      "data_hora": "2026-10-09T15:00:00-03:00",
+      "temperatura": 32.2,
+      "umidade": 65.7,
+      "co2": 918,
+      "mq135": 310
+    },
+    {
+      "parque": "dois-irmaos",
+      "data_hora": "2026-10-09T18:00:00-03:00",
+      "temperatura": 26.1,
+      "umidade": 86.1,
+      "co2": 473,
+      "mq135": 122
+    },
+    {
+      "parque": "governador-eduardo-campos",
+      "data_hora": "2026-10-09T18:00:00-03:00",
+      "temperatura": 33.9,
+      "umidade": 53.5,
+      "co2": 2193,
+      "mq135": 836
+    },
+    {
+      "parque": "jaqueira",
+      "data_hora": "2026-10-09T18:00:00-03:00",
+      "temperatura": 26.5,
+      "umidade": 75.7,
+      "co2": 531,
+      "mq135": 215
+    },
+    {
+      "parque": "macaxeira",
+      "data_hora": "2026-10-09T18:00:00-03:00",
+      "temperatura": 32.8,
+      "umidade": 53.4,
+      "co2": 1513,
+      "mq135": 635
+    },
+    {
+      "parque": "tamarineira",
+      "data_hora": "2026-10-09T18:00:00-03:00",
+      "temperatura": 29.8,
+      "umidade": 71.0,
+      "co2": 903,
+      "mq135": 314
+    },
+    {
+      "parque": "dois-irmaos",
+      "data_hora": "2026-10-09T21:00:00-03:00",
+      "temperatura": 24.5,
+      "umidade": 81.9,
+      "co2": 339,
+      "mq135": 74
+    },
+    {
+      "parque": "governador-eduardo-campos",
+      "data_hora": "2026-10-09T21:00:00-03:00",
+      "temperatura": 33.5,
+      "umidade": 51.3,
+      "co2": 2133,
+      "mq135": 845
+    },
+    {
+      "parque": "jaqueira",
+      "data_hora": "2026-10-09T21:00:00-03:00",
+      "temperatura": 25.5,
+      "umidade": 80.3,
+      "co2": 639,
+      "mq135": 170
+    },
+    {
+      "parque": "macaxeira",
+      "data_hora": "2026-10-09T21:00:00-03:00",
+      "temperatura": 31.5,
+      "umidade": 56.8,
+      "co2": 1530,
+      "mq135": 587
+    },
+    {
+      "parque": "tamarineira",
+      "data_hora": "2026-10-09T21:00:00-03:00",
+      "temperatura": 28.0,
+      "umidade": 69.6,
+      "co2": 932,
+      "mq135": 333
+    },
+    {
+      "parque": "dois-irmaos",
+      "data_hora": "2026-10-10T06:00:00-03:00",
+      "temperatura": 23.5,
+      "umidade": 84.8,
+      "co2": 438,
+      "mq135": 96
+    },
+    {
+      "parque": "governador-eduardo-campos",
+      "data_hora": "2026-10-10T06:00:00-03:00",
+      "temperatura": 32.2,
+      "umidade": 53.9,
+      "co2": 2168,
+      "mq135": 874
+    },
+    {
+      "parque": "jaqueira",
+      "data_hora": "2026-10-10T06:00:00-03:00",
+      "temperatura": 24.7,
+      "umidade": 79.4,
+      "co2": 518,
+      "mq135": 200
+    },
+    {
+      "parque": "macaxeira",
+      "data_hora": "2026-10-10T06:00:00-03:00",
+      "temperatura": 30.3,
+      "umidade": 64.3,
+      "co2": 1427,
+      "mq135": 580
+    },
+    {
+      "parque": "tamarineira",
+      "data_hora": "2026-10-10T06:00:00-03:00",
+      "temperatura": 26.1,
+      "umidade": 76.9,
+      "co2": 857,
+      "mq135": 345
+    },
+    {
+      "parque": "dois-irmaos",
+      "data_hora": "2026-10-10T09:00:00-03:00",
+      "temperatura": 25.2,
+      "umidade": 80.9,
+      "co2": 388,
+      "mq135": 89
+    },
+    {
+      "parque": "governador-eduardo-campos",
+      "data_hora": "2026-10-10T09:00:00-03:00",
+      "temperatura": 33.5,
+      "umidade": 52.7,
+      "co2": 2226,
+      "mq135": 848
+    },
+    {
+      "parque": "jaqueira",
+      "data_hora": "2026-10-10T09:00:00-03:00",
+      "temperatura": 26.4,
+      "umidade": 72.8,
+      "co2": 497,
+      "mq135": 179
+    },
+    {
+      "parque": "macaxeira",
+      "data_hora": "2026-10-10T09:00:00-03:00",
+      "temperatura": 31.3,
+      "umidade": 59.4,
+      "co2": 1365,
+      "mq135": 595
+    },
+    {
+      "parque": "tamarineira",
+      "data_hora": "2026-10-10T09:00:00-03:00",
+      "temperatura": 29.3,
+      "umidade": 70.7,
+      "co2": 918,
+      "mq135": 338
+    },
+    {
+      "parque": "dois-irmaos",
+      "data_hora": "2026-10-10T12:00:00-03:00",
+      "temperatura": 27.2,
+      "umidade": 74.5,
+      "co2": 415,
+      "mq135": 123
+    },
+    {
+      "parque": "governador-eduardo-campos",
+      "data_hora": "2026-10-10T12:00:00-03:00",
+      "temperatura": 35.7,
+      "umidade": 46.1,
+      "co2": 3109,
+      "mq135": 1100
+    },
+    {
+      "parque": "jaqueira",
+      "data_hora": "2026-10-10T12:00:00-03:00",
+      "temperatura": 29.6,
+      "umidade": 66.1,
+      "co2": 489,
+      "mq135": 186
+    },
+    {
+      "parque": "macaxeira",
+      "data_hora": "2026-10-10T12:00:00-03:00",
+      "temperatura": 34.4,
+      "umidade": 50.6,
+      "co2": 2249,
+      "mq135": 857
+    },
+    {
+      "parque": "tamarineira",
+      "data_hora": "2026-10-10T12:00:00-03:00",
+      "temperatura": 31.3,
+      "umidade": 61.7,
+      "co2": 904,
+      "mq135": 348
+    },
+    {
+      "parque": "dois-irmaos",
+      "data_hora": "2026-10-10T15:00:00-03:00",
+      "temperatura": 27.8,
+      "umidade": 77.4,
+      "co2": 368,
+      "mq135": 109
+    },
+    {
+      "parque": "governador-eduardo-campos",
+      "data_hora": "2026-10-10T15:00:00-03:00",
+      "temperatura": 36.3,
+      "umidade": 48.5,
+      "co2": 3043,
+      "mq135": 1151
+    },
+    {
+      "parque": "jaqueira",
+      "data_hora": "2026-10-10T15:00:00-03:00",
+      "temperatura": 29.7,
+      "umidade": 65.5,
+      "co2": 587,
+      "mq135": 150
+    },
+    {
+      "parque": "macaxeira",
+      "data_hora": "2026-10-10T15:00:00-03:00",
+      "temperatura": 34.2,
+      "umidade": 56.6,
+      "co2": 2303,
+      "mq135": 859
+    },
+    {
+      "parque": "tamarineira",
+      "data_hora": "2026-10-10T15:00:00-03:00",
+      "temperatura": 32.1,
+      "umidade": 64.8,
+      "co2": 783,
+      "mq135": 325
+    },
+    {
+      "parque": "dois-irmaos",
+      "data_hora": "2026-10-10T18:00:00-03:00",
+      "temperatura": 25.8,
+      "umidade": 86.2,
+      "co2": 436,
+      "mq135": 127
+    },
+    {
+      "parque": "governador-eduardo-campos",
+      "data_hora": "2026-10-10T18:00:00-03:00",
+      "temperatura": 34.7,
+      "umidade": 50.6,
+      "co2": 2222,
+      "mq135": 834
+    },
+    {
+      "parque": "jaqueira",
+      "data_hora": "2026-10-10T18:00:00-03:00",
+      "temperatura": 27.9,
+      "umidade": 74.5,
+      "co2": 597,
+      "mq135": 185
+    },
+    {
+      "parque": "macaxeira",
+      "data_hora": "2026-10-10T18:00:00-03:00",
+      "temperatura": 32.3,
+      "umidade": 54.9,
+      "co2": 1407,
+      "mq135": 620
+    },
+    {
+      "parque": "tamarineira",
+      "data_hora": "2026-10-10T18:00:00-03:00",
+      "temperatura": 29.8,
+      "umidade": 67.8,
+      "co2": 918,
+      "mq135": 347
+    },
+    {
+      "parque": "dois-irmaos",
+      "data_hora": "2026-10-10T21:00:00-03:00",
+      "temperatura": 23.3,
+      "umidade": 82.5,
+      "co2": 381,
+      "mq135": 82
+    },
+    {
+      "parque": "governador-eduardo-campos",
+      "data_hora": "2026-10-10T21:00:00-03:00",
+      "temperatura": 32.9,
+      "umidade": 55.6,
+      "co2": 2261,
+      "mq135": 869
+    },
+    {
+      "parque": "jaqueira",
+      "data_hora": "2026-10-10T21:00:00-03:00",
+      "temperatura": 25.9,
+      "umidade": 73.0,
+      "co2": 514,
+      "mq135": 199
+    },
+    {
+      "parque": "macaxeira",
+      "data_hora": "2026-10-10T21:00:00-03:00",
+      "temperatura": 30.7,
+      "umidade": 57.7,
+      "co2": 1436,
+      "mq135": 638
+    },
+    {
+      "parque": "tamarineira",
+      "data_hora": "2026-10-10T21:00:00-03:00",
+      "temperatura": 28.1,
+      "umidade": 66.3,
+      "co2": 834,
+      "mq135": 333
+    },
+    {
+      "parque": "dois-irmaos",
+      "data_hora": "2026-10-11T06:00:00-03:00",
+      "temperatura": 22.9,
+      "umidade": 81.7,
+      "co2": 395,
+      "mq135": 113
+    },
+    {
+      "parque": "governador-eduardo-campos",
+      "data_hora": "2026-10-11T06:00:00-03:00",
+      "temperatura": 31.7,
+      "umidade": 52.3,
+      "co2": 2194,
+      "mq135": 824
+    },
+    {
+      "parque": "jaqueira",
+      "data_hora": "2026-10-11T06:00:00-03:00",
+      "temperatura": 25.5,
+      "umidade": 83.2,
+      "co2": 546,
+      "mq135": 202
+    },
+    {
+      "parque": "macaxeira",
+      "data_hora": "2026-10-11T06:00:00-03:00",
+      "temperatura": 29.8,
+      "umidade": 57.9,
+      "co2": 1422,
+      "mq135": 623
+    },
+    {
+      "parque": "tamarineira",
+      "data_hora": "2026-10-11T06:00:00-03:00",
+      "temperatura": 27.0,
+      "umidade": 73.7,
+      "co2": 802,
+      "mq135": 310
+    },
+    {
+      "parque": "dois-irmaos",
+      "data_hora": "2026-10-11T09:00:00-03:00",
+      "temperatura": 25.0,
+      "umidade": 78.1,
+      "co2": 402,
+      "mq135": 100
+    },
+    {
+      "parque": "governador-eduardo-campos",
+      "data_hora": "2026-10-11T09:00:00-03:00",
+      "temperatura": 33.2,
+      "umidade": 47.7,
+      "co2": 2118,
+      "mq135": 853
+    },
+    {
+      "parque": "jaqueira",
+      "data_hora": "2026-10-11T09:00:00-03:00",
+      "temperatura": 25.8,
+      "umidade": 76.3,
+      "co2": 498,
+      "mq135": 182
+    },
+    {
+      "parque": "macaxeira",
+      "data_hora": "2026-10-11T09:00:00-03:00",
+      "temperatura": 32.0,
+      "umidade": 57.7,
+      "co2": 1493,
+      "mq135": 633
+    },
+    {
+      "parque": "tamarineira",
+      "data_hora": "2026-10-11T09:00:00-03:00",
+      "temperatura": 27.9,
+      "umidade": 67.7,
+      "co2": 801,
+      "mq135": 318
+    },
+    {
+      "parque": "dois-irmaos",
+      "data_hora": "2026-10-11T12:00:00-03:00",
+      "temperatura": 28.1,
+      "umidade": 75.9,
+      "co2": 446,
+      "mq135": 115
+    },
+    {
+      "parque": "governador-eduardo-campos",
+      "data_hora": "2026-10-11T12:00:00-03:00",
+      "temperatura": 35.6,
+      "umidade": 47.5,
+      "co2": 2242,
+      "mq135": 823
+    },
+    {
+      "parque": "jaqueira",
+      "data_hora": "2026-10-11T12:00:00-03:00",
+      "temperatura": 29.3,
+      "umidade": 71.9,
+      "co2": 636,
+      "mq135": 164
+    },
+    {
+      "parque": "macaxeira",
+      "data_hora": "2026-10-11T12:00:00-03:00",
+      "temperatura": 34.2,
+      "umidade": 50.6,
+      "co2": 1484,
+      "mq135": 629
+    },
+    {
+      "parque": "tamarineira",
+      "data_hora": "2026-10-11T12:00:00-03:00",
+      "temperatura": 30.3,
+      "umidade": 59.9,
+      "co2": 786,
+      "mq135": 342
+    },
+    {
+      "parque": "dois-irmaos",
+      "data_hora": "2026-10-11T15:00:00-03:00",
+      "temperatura": 28.4,
+      "umidade": 80.7,
+      "co2": 353,
+      "mq135": 62
+    },
+    {
+      "parque": "governador-eduardo-campos",
+      "data_hora": "2026-10-11T15:00:00-03:00",
+      "temperatura": 36.1,
+      "umidade": 49.9,
+      "co2": 2248,
+      "mq135": 839
+    },
+    {
+      "parque": "jaqueira",
+      "data_hora": "2026-10-11T15:00:00-03:00",
+      "temperatura": 29.4,
+      "umidade": 69.8,
+      "co2": 638,
+      "mq135": 178
+    },
+    {
+      "parque": "macaxeira",
+      "data_hora": "2026-10-11T15:00:00-03:00",
+      "temperatura": 34.1,
+      "umidade": 54.8,
+      "co2": 1510,
+      "mq135": 617
+    },
+    {
+      "parque": "tamarineira",
+      "data_hora": "2026-10-11T15:00:00-03:00",
+      "temperatura": 32.0,
+      "umidade": 57.8,
+      "co2": 882,
+      "mq135": 339
+    },
+    {
+      "parque": "dois-irmaos",
+      "data_hora": "2026-10-11T18:00:00-03:00",
+      "temperatura": 25.4,
+      "umidade": 80.0,
+      "co2": 421,
+      "mq135": 84
+    },
+    {
+      "parque": "governador-eduardo-campos",
+      "data_hora": "2026-10-11T18:00:00-03:00",
+      "temperatura": 34.4,
+      "umidade": 50.2,
+      "co2": 2189,
+      "mq135": 866
+    },
+    {
+      "parque": "jaqueira",
+      "data_hora": "2026-10-11T18:00:00-03:00",
+      "temperatura": 27.9,
+      "umidade": 76.6,
+      "co2": 493,
+      "mq135": 217
+    },
+    {
+      "parque": "macaxeira",
+      "data_hora": "2026-10-11T18:00:00-03:00",
+      "temperatura": 32.7,
+      "umidade": 62.0,
+      "co2": 1411,
+      "mq135": 632
+    },
+    {
+      "parque": "tamarineira",
+      "data_hora": "2026-10-11T18:00:00-03:00",
+      "temperatura": 29.5,
+      "umidade": 70.6,
+      "co2": 885,
+      "mq135": 325
+    },
+    {
+      "parque": "dois-irmaos",
+      "data_hora": "2026-10-11T21:00:00-03:00",
+      "temperatura": 23.6,
+      "umidade": 88.2,
+      "co2": 476,
+      "mq135": 66
+    },
+    {
+      "parque": "governador-eduardo-campos",
+      "data_hora": "2026-10-11T21:00:00-03:00",
+      "temperatura": 33.1,
+      "umidade": 51.4,
+      "co2": 2117,
+      "mq135": 881
+    },
+    {
+      "parque": "jaqueira",
+      "data_hora": "2026-10-11T21:00:00-03:00",
+      "temperatura": 26.4,
+      "umidade": 74.1,
+      "co2": 554,
+      "mq135": 193
+    },
+    {
+      "parque": "macaxeira",
+      "data_hora": "2026-10-11T21:00:00-03:00",
+      "temperatura": 30.3,
+      "umidade": 63.6,
+      "co2": 1423,
+      "mq135": 637
+    },
+    {
+      "parque": "tamarineira",
+      "data_hora": "2026-10-11T21:00:00-03:00",
+      "temperatura": 27.6,
+      "umidade": 65.9,
+      "co2": 910,
+      "mq135": 308
+    },
+    {
+      "parque": "dois-irmaos",
+      "data_hora": "2026-10-12T06:00:00-03:00",
+      "temperatura": 22.4,
+      "umidade": 88.8,
+      "co2": 418,
+      "mq135": 113
+    },
+    {
+      "parque": "governador-eduardo-campos",
+      "data_hora": "2026-10-12T06:00:00-03:00",
+      "temperatura": 32.3,
+      "umidade": 53.9,
+      "co2": 2234,
+      "mq135": 834
+    },
+    {
+      "parque": "jaqueira",
+      "data_hora": "2026-10-12T06:00:00-03:00",
+      "temperatura": 25.2,
+      "umidade": 80.1,
+      "co2": 558,
+      "mq135": 206
+    },
+    {
+      "parque": "macaxeira",
+      "data_hora": "2026-10-12T06:00:00-03:00",
+      "temperatura": 30.0,
+      "umidade": 62.4,
+      "co2": 1455,
+      "mq135": 605
+    },
+    {
+      "parque": "tamarineira",
+      "data_hora": "2026-10-12T06:00:00-03:00",
+      "temperatura": 26.2,
+      "umidade": 69.8,
+      "co2": 883,
+      "mq135": 316
+    },
+    {
+      "parque": "dois-irmaos",
+      "data_hora": "2026-10-12T09:00:00-03:00",
+      "temperatura": 24.4,
+      "umidade": 79.1,
+      "co2": 368,
+      "mq135": 68
+    },
+    {
+      "parque": "governador-eduardo-campos",
+      "data_hora": "2026-10-12T09:00:00-03:00",
+      "temperatura": 33.1,
+      "umidade": 47.0,
+      "co2": 2206,
+      "mq135": 834
+    },
+    {
+      "parque": "jaqueira",
+      "data_hora": "2026-10-12T09:00:00-03:00",
+      "temperatura": 26.7,
+      "umidade": 77.5,
+      "co2": 506,
+      "mq135": 165
+    },
+    {
+      "parque": "macaxeira",
+      "data_hora": "2026-10-12T09:00:00-03:00",
+      "temperatura": 31.3,
+      "umidade": 54.9,
+      "co2": 1398,
+      "mq135": 591
+    },
+    {
+      "parque": "tamarineira",
+      "data_hora": "2026-10-12T09:00:00-03:00",
+      "temperatura": 28.6,
+      "umidade": 71.1,
+      "co2": 931,
+      "mq135": 332
+    },
+    {
+      "parque": "dois-irmaos",
+      "data_hora": "2026-10-12T12:00:00-03:00",
+      "temperatura": 28.1,
+      "umidade": 77.9,
+      "co2": 454,
+      "mq135": 69
+    },
+    {
+      "parque": "governador-eduardo-campos",
+      "data_hora": "2026-10-12T12:00:00-03:00",
+      "temperatura": 35.4,
+      "umidade": 47.7,
+      "co2": 2124,
+      "mq135": 825
+    },
+    {
+      "parque": "jaqueira",
+      "data_hora": "2026-10-12T12:00:00-03:00",
+      "temperatura": 29.7,
+      "umidade": 69.3,
+      "co2": 623,
+      "mq135": 190
+    },
+    {
+      "parque": "macaxeira",
+      "data_hora": "2026-10-12T12:00:00-03:00",
+      "temperatura": 34.8,
+      "umidade": 53.2,
+      "co2": 1505,
+      "mq135": 603
+    },
+    {
+      "parque": "tamarineira",
+      "data_hora": "2026-10-12T12:00:00-03:00",
+      "temperatura": 31.1,
+      "umidade": 62.8,
+      "co2": 796,
+      "mq135": 299
+    },
+    {
+      "parque": "dois-irmaos",
+      "data_hora": "2026-10-12T15:00:00-03:00",
+      "temperatura": 28.0,
+      "umidade": 74.1,
+      "co2": 504,
+      "mq135": 68
+    },
+    {
+      "parque": "governador-eduardo-campos",
+      "data_hora": "2026-10-12T15:00:00-03:00",
+      "temperatura": 37.1,
+      "umidade": 49.5,
+      "co2": 2150,
+      "mq135": 830
+    },
+    {
+      "parque": "jaqueira",
+      "data_hora": "2026-10-12T15:00:00-03:00",
+      "temperatura": 30.1,
+      "umidade": 69.1,
+      "co2": 609,
+      "mq135": 166
+    },
+    {
+      "parque": "macaxeira",
+      "data_hora": "2026-10-12T15:00:00-03:00",
+      "temperatura": 35.5,
+      "umidade": 50.1,
+      "co2": 1471,
+      "mq135": 618
+    },
+    {
+      "parque": "tamarineira",
+      "data_hora": "2026-10-12T15:00:00-03:00",
+      "temperatura": 31.7,
+      "umidade": 61.6,
+      "co2": 840,
+      "mq135": 355
+    },
+    {
+      "parque": "dois-irmaos",
+      "data_hora": "2026-10-12T18:00:00-03:00",
+      "temperatura": 25.8,
+      "umidade": 77.9,
+      "co2": 365,
+      "mq135": 65
+    },
+    {
+      "parque": "governador-eduardo-campos",
+      "data_hora": "2026-10-12T18:00:00-03:00",
+      "temperatura": 34.6,
+      "umidade": 54.7,
+      "co2": 2187,
+      "mq135": 853
+    },
+    {
+      "parque": "jaqueira",
+      "data_hora": "2026-10-12T18:00:00-03:00",
+      "temperatura": 26.5,
+      "umidade": 72.8,
+      "co2": 576,
+      "mq135": 170
+    },
+    {
+      "parque": "macaxeira",
+      "data_hora": "2026-10-12T18:00:00-03:00",
+      "temperatura": 32.6,
+      "umidade": 61.6,
+      "co2": 1499,
+      "mq135": 619
+    },
+    {
+      "parque": "tamarineira",
+      "data_hora": "2026-10-12T18:00:00-03:00",
+      "temperatura": 28.9,
+      "umidade": 69.4,
+      "co2": 885,
+      "mq135": 327
+    },
+    {
+      "parque": "dois-irmaos",
+      "data_hora": "2026-10-12T21:00:00-03:00",
+      "temperatura": 24.2,
+      "umidade": 88.7,
+      "co2": 476,
+      "mq135": 65
+    },
+    {
+      "parque": "governador-eduardo-campos",
+      "data_hora": "2026-10-12T21:00:00-03:00",
+      "temperatura": 32.1,
+      "umidade": 53.0,
+      "co2": 2170,
+      "mq135": 833
+    },
+    {
+      "parque": "jaqueira",
+      "data_hora": "2026-10-12T21:00:00-03:00",
+      "temperatura": 25.3,
+      "umidade": 74.7,
+      "co2": 602,
+      "mq135": 190
+    },
+    {
+      "parque": "macaxeira",
+      "data_hora": "2026-10-12T21:00:00-03:00",
+      "temperatura": 31.5,
+      "umidade": 60.6,
+      "co2": 1449,
+      "mq135": 581
+    },
+    {
+      "parque": "tamarineira",
+      "data_hora": "2026-10-12T21:00:00-03:00",
+      "temperatura": 27.5,
+      "umidade": 66.9,
+      "co2": 882,
+      "mq135": 344
+    },
+    {
+      "parque": "dois-irmaos",
+      "data_hora": "2026-10-13T06:00:00-03:00",
+      "temperatura": 22.4,
+      "umidade": 91.2,
+      "co2": 477,
+      "mq135": 100
+    },
+    {
+      "parque": "governador-eduardo-campos",
+      "data_hora": "2026-10-13T06:00:00-03:00",
+      "temperatura": 31.9,
+      "umidade": 51.5,
+      "co2": 2174,
+      "mq135": 838
+    },
+    {
+      "parque": "jaqueira",
+      "data_hora": "2026-10-13T06:00:00-03:00",
+      "temperatura": 25.6,
+      "umidade": 83.6,
+      "co2": 589,
+      "mq135": 169
+    },
+    {
+      "parque": "macaxeira",
+      "data_hora": "2026-10-13T06:00:00-03:00",
+      "temperatura": 30.6,
+      "umidade": 59.4,
+      "co2": 1465,
+      "mq135": 619
+    },
+    {
+      "parque": "tamarineira",
+      "data_hora": "2026-10-13T06:00:00-03:00",
+      "temperatura": 26.2,
+      "umidade": 75.2,
+      "co2": 845,
+      "mq135": 341
+    },
+    {
+      "parque": "dois-irmaos",
+      "data_hora": "2026-10-13T09:00:00-03:00",
+      "temperatura": 25.1,
+      "umidade": 86.5,
+      "co2": 391,
+      "mq135": 109
+    },
+    {
+      "parque": "governador-eduardo-campos",
+      "data_hora": "2026-10-13T09:00:00-03:00",
+      "temperatura": 33.7,
+      "umidade": 51.0,
+      "co2": 2147,
+      "mq135": 840
+    },
+    {
+      "parque": "jaqueira",
+      "data_hora": "2026-10-13T09:00:00-03:00",
+      "temperatura": 26.3,
+      "umidade": 79.3,
+      "co2": 613,
+      "mq135": 189
+    },
+    {
+      "parque": "macaxeira",
+      "data_hora": "2026-10-13T09:00:00-03:00",
+      "temperatura": 31.4,
+      "umidade": 59.0,
+      "co2": 1533,
+      "mq135": 621
+    },
+    {
+      "parque": "tamarineira",
+      "data_hora": "2026-10-13T09:00:00-03:00",
+      "temperatura": 28.5,
+      "umidade": 67.0,
+      "co2": 820,
+      "mq135": 363
+    },
+    {
+      "parque": "dois-irmaos",
+      "data_hora": "2026-10-13T12:00:00-03:00",
+      "temperatura": 27.7,
+      "umidade": 78.6,
+      "co2": 464,
+      "mq135": 74
+    },
+    {
+      "parque": "governador-eduardo-campos",
+      "data_hora": "2026-10-13T12:00:00-03:00",
+      "temperatura": 36.9,
+      "umidade": 50.5,
+      "co2": 2193,
+      "mq135": 823
+    },
+    {
+      "parque": "jaqueira",
+      "data_hora": "2026-10-13T12:00:00-03:00",
+      "temperatura": 29.2,
+      "umidade": 73.7,
+      "co2": 549,
+      "mq135": 199
+    },
+    {
+      "parque": "macaxeira",
+      "data_hora": "2026-10-13T12:00:00-03:00",
+      "temperatura": 33.6,
+      "umidade": 53.9,
+      "co2": 1459,
+      "mq135": 582
+    },
+    {
+      "parque": "tamarineira",
+      "data_hora": "2026-10-13T12:00:00-03:00",
+      "temperatura": 30.5,
+      "umidade": 68.1,
+      "co2": 869,
+      "mq135": 312
+    },
+    {
+      "parque": "dois-irmaos",
+      "data_hora": "2026-10-13T15:00:00-03:00",
+      "temperatura": 28.4,
+      "umidade": 76.0,
+      "co2": 457,
+      "mq135": 96
+    },
+    {
+      "parque": "governador-eduardo-campos",
+      "data_hora": "2026-10-13T15:00:00-03:00",
+      "temperatura": 36.6,
+      "umidade": 49.4,
+      "co2": 2201,
+      "mq135": 872
+    },
+    {
+      "parque": "jaqueira",
+      "data_hora": "2026-10-13T15:00:00-03:00",
+      "temperatura": 29.3,
+      "umidade": 71.4,
+      "co2": 642,
+      "mq135": 167
+    },
+    {
+      "parque": "macaxeira",
+      "data_hora": "2026-10-13T15:00:00-03:00",
+      "temperatura": 35.3,
+      "umidade": 55.7,
+      "co2": 1412,
+      "mq135": 630
+    },
+    {
+      "parque": "tamarineira",
+      "data_hora": "2026-10-13T15:00:00-03:00",
+      "temperatura": 31.8,
+      "umidade": 60.9,
+      "co2": 922,
+      "mq135": 331
+    },
+    {
+      "parque": "dois-irmaos",
+      "data_hora": "2026-10-13T18:00:00-03:00",
+      "temperatura": 25.2,
+      "umidade": 79.3,
+      "co2": 435,
+      "mq135": 130
+    },
+    {
+      "parque": "governador-eduardo-campos",
+      "data_hora": "2026-10-13T18:00:00-03:00",
+      "temperatura": 34.7,
+      "umidade": 45.8,
+      "co2": 2242,
+      "mq135": 864
+    },
+    {
+      "parque": "jaqueira",
+      "data_hora": "2026-10-13T18:00:00-03:00",
+      "temperatura": 27.3,
+      "umidade": 69.8,
+      "co2": 567,
+      "mq135": 174
+    },
+    {
+      "parque": "macaxeira",
+      "data_hora": "2026-10-13T18:00:00-03:00",
+      "temperatura": 31.8,
+      "umidade": 59.3,
+      "co2": 1462,
+      "mq135": 591
+    },
+    {
+      "parque": "tamarineira",
+      "data_hora": "2026-10-13T18:00:00-03:00",
+      "temperatura": 29.4,
+      "umidade": 67.8,
+      "co2": 842,
+      "mq135": 318
+    },
+    {
+      "parque": "dois-irmaos",
+      "data_hora": "2026-10-13T21:00:00-03:00",
+      "temperatura": 24.5,
+      "umidade": 83.5,
+      "co2": 448,
+      "mq135": 117
+    },
+    {
+      "parque": "governador-eduardo-campos",
+      "data_hora": "2026-10-13T21:00:00-03:00",
+      "temperatura": 33.0,
+      "umidade": 50.2,
+      "co2": 2195,
+      "mq135": 883
+    },
+    {
+      "parque": "jaqueira",
+      "data_hora": "2026-10-13T21:00:00-03:00",
+      "temperatura": 26.6,
+      "umidade": 76.6,
+      "co2": 481,
+      "mq135": 185
+    },
+    {
+      "parque": "macaxeira",
+      "data_hora": "2026-10-13T21:00:00-03:00",
+      "temperatura": 30.8,
+      "umidade": 60.2,
+      "co2": 1488,
+      "mq135": 604
+    },
+    {
+      "parque": "tamarineira",
+      "data_hora": "2026-10-13T21:00:00-03:00",
+      "temperatura": 27.9,
+      "umidade": 74.3,
+      "co2": 914,
+      "mq135": 326
+    },
+    {
+      "parque": "jardim-poco",
+      "data_hora": "2026-10-13T21:00:00-03:00",
+      "temperatura": 29.4,
+      "umidade": 70.6,
+      "co2": 444,
+      "mq135": 155
+    }
+  ]
+}
