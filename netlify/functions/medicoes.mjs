@@ -4,6 +4,8 @@
 //   GET  /api/medicoes?dias=120   -> histórico + leitura ao vivo de cada parque
 // Os dados ficam no Netlify Blobs (loja "sima-medicoes"), um arquivo por parque por dia.
 // Quem pode gravar: variável de ambiente SIMA_DISPOSITIVOS = "token=parque" (vários separados por vírgula).
+// O parque escolhido no próprio sensor (campo "parque", configurado pelo celular) tem prioridade;
+// o parque da variável vale para sensores antigos que não mandam esse campo. "token=*" = só o sensor escolhe.
 import { getStore } from '@netlify/blobs';
 
 const CO2_REF = 350, EXPOENTE = 2.849, CO2_BOM = 650;
@@ -46,8 +48,9 @@ function linha(parque, l, agora) {
 async function receber(req, store, disp) {
   let corpo;
   try { corpo = await req.json(); } catch { return json({ erro: 'json invalido' }, 400); }
-  const parque = disp.get(String(corpo?.token || ''));
-  if (!parque) return json({ erro: 'token invalido' }, 401);
+  const doToken = disp.get(String(corpo?.token || ''));
+  if (!doToken) return json({ erro: 'token invalido' }, 401);
+  const parque = PARQUES.has(corpo.parque) ? corpo.parque : doToken;
   if (!PARQUES.has(parque)) return json({ erro: `parque desconhecido: ${parque}` }, 400);
   const leituras = Array.isArray(corpo.leituras) ? corpo.leituras.slice(0, 500) : [];
   const agora = new Date().toISOString();
